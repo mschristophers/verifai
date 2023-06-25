@@ -1,15 +1,40 @@
-div {
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
     text-align: center;
-    padding: 2em;
+    flex-grow: 1;
   }
   
-h1 {
-    color: #2D3748;
-    font-size: 2.5em;
-}
+  .dashboard-container h1 {
+    color: #00d8ff;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
   
-p {
-    color: #4A5568;
-    font-size: 1.5em;
-}
+  .dashboard-container .dashboard-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    line-height: 1.5;
+    opacity: 0.9;
+  }
+  
+  .dashboard-button {
+    padding: 1rem 2rem;
+    background-color: #00d8ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #00b8cc;
+  }
   

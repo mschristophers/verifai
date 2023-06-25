@@ -3,9 +3,12 @@ import './Dashboard.css';
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Welcome to VerifAI!</h1>
-      <p>Your profile and verification status will appear here.</p>
+    <div className="dashboard-container">
+      <h1>Welcome to VerifAI</h1>
+      <p className="dashboard-description">
+        Dive into the new era of cross-chain identity management and verification. VerifAI is revolutionizing security, efficiency, and interoperability across various blockchain platforms.
+      </p>
+      <button className="dashboard-button">Begin the journey</button>
     </div>
   );
 };
